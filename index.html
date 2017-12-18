@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>портфолио</title>
+    <link type="text/css" href="materialize.css" rel="stylesheet">
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper grey darken-4">
+            <a href="#" class="brand-logo center">Портфолио Эверстова А.С</a>
+
+        </div>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax"><img src="back.jpeg"></div>
+    </div>
+    <div class="row container">
+        <div class="col s12 m6 offset-m3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="me2.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4 flow-text">Эверстов Артем</span>
+                    <p class="flow-text">Начинающий программист</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">person</i>Краткая информация обо мне</div>
+                <div class="collapsible-body"><span>Меня зовут Эверстов Артем Степанович. Мне 15 лет. Проживаю в городе Якутске. Учусь в Якутском Городском Лицее, в 9 классе.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_none</i>Увлечения</div>
+                <div class="collapsible-body"><span>Мои увлечения - это история и программирование. Разделяю коммунистические взгляды.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">folder_shared</i>Сколько изучаю программирование</div>
+                <div class="collapsible-body"><span>Начал увлекаться программированием с 7 класса. Я очень заинтересован этой деятельностью и хотел бы ее продолжать.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">accessibility</i>Будущее и планы</div>
+                <div class="collapsible-body"><span>В будущем я хочу изучить еще несколько основных языков программирования, такие как Python, C++, Unity и PHP. В будущем я себя вижу обычным гражданином коммунистического государства и успешным историком или программистом. Хочу учиться в СПбГУ или в заграничном ВУЗе.</span></div>
+            </li>
+        </ul>
+    </div>
+    <div class="carousel">
+        <img class="carousel-item" src="1.png"/>
+        <img class="carousel-item" src="2.png" />
+        <img class="carousel-item" src="3.png" />
+        <img class="carousel-item" src="4.png" />
+        <img class="carousel-item" src="5.png" />
+        <img class="carousel-item" src="6.png" />
+    </div>
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Дополнительная информация</h5>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://e.mail.ru/messages/inbox/?back=1"></a>Почта mail.ru</li>
+                        <li><a class="grey-text text-lighten-3" href="https://vk.com/feed">VK</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container">
+                © 2017
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.carousel').carousel();
+            $('.collapsible').collapsible();
+            $('.parallax').parallax();
+          
+        });
+
+    </script>
+
+</body>
+
+</html>
